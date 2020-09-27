@@ -1,0 +1,26 @@
+.introduce>h3 {
+  font-size: 2.4em;
+  text-align: center;
+}
+.introduce>h2{
+  text-align: center;
+  color: rgb(240, 193, 106);
+}
+.introduce .sign{
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.introduce {
+  padding: 34px 0;
+  background-image: linear-gradient(135deg,rgb(162, 206, 235),#09f,rgb(5, 81, 131));
+}
+.introduce p{
+  font-size: 1.1em;
+  max-width: 730px;
+  margin: 14px auto;
+}
+.introduce span{
+  color: #ccc;
+  font-size: 1.3em;
+}

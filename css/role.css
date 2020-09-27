@@ -1,0 +1,68 @@
+.role>h4 {
+  font-size: 2.4em;
+  text-align: center;
+}
+
+.sign::before {
+  content: "";
+  display: block;
+  width: 11px;
+  height: 11px;
+  background-color: tomato;
+  border-radius: 50%;
+  filter: blur(1px);
+  position: relative;
+  margin: 0 auto;
+  top: -4px;
+}
+
+.sign {
+  width: 120px;
+  height: 2px;
+  background-color: #09f;
+  margin: 0 auto;
+}
+
+.role>p {
+  font-size: 1em;
+  margin-top: 10px;
+  color: #999;
+  text-align: center;
+}
+
+.role {
+  max-width: 1950px;
+  margin: 0 auto;
+}
+
+/* ----------- */
+
+.role ul {
+  margin-top: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.role ul li {
+  max-width: 500px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+}
+
+.role li div h5 {
+  font-size: 1.3em;
+  color: #222;
+}
+
+.role li div p {
+  font-size: 1em;
+  color: #666;
+}
+
+.role ul li img {
+  float: left;
+  width: 220px;
+}

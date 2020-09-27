@@ -1,0 +1,35 @@
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #09f;
+  padding: 0 24px;
+}
+
+footer .w {
+  max-width: 620px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 54px 0 24px 0;
+}
+
+footer ul {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer li img {
+  width: 85px;
+  border-radius: 10px;
+  border: 2px #ccc solid;
+}
+
+.words {
+  font-size: 1.2em;
+  margin: 10px 0 15px 0;
+}
+
+.words p {
+  margin: 5px 0;
+}
